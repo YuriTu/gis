@@ -1,7 +1,7 @@
 
 mapbox-gl.js
 mapbox-gl-dev.js
-
+node_module
 */**/yarn.lock
 yarn.lock
 yarn-error.log
