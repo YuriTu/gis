@@ -1,7 +1,7 @@
 
 mapbox-gl.js
 mapbox-gl-dev.js
-node_module
+node_modules/
 */**/yarn.lock
 yarn.lock
 yarn-error.log
@@ -16,3 +16,4 @@ package-lock.json
 .exit_code
 *.min.js
 .yo-rc.json
+token.json

@@ -14,6 +14,7 @@ const INITIAL_VIEW_STATE = {
   pitch: 60
 };
 
+console.log(MAPBOX_TOKEN);
 class Root extends Component {
   render() {
     return (

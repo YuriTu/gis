@@ -11,8 +11,6 @@ const resolve = require('path').resolve;
 const LIB_DIR = resolve(__dirname, '..');
 const SRC_DIR = resolve(LIB_DIR, './modules');
 
-const ALIASES = require('../aliases')('src');
-
 // Support for hot reloading changes to the deck.gl library:
 function makeLocalDevConfig(EXAMPLE_DIR = LIB_DIR) {
   return {
@@ -31,7 +29,7 @@ function makeLocalDevConfig(EXAMPLE_DIR = LIB_DIR) {
     resolve: {
       // mainFields: ['esnext', 'module', 'main'],
 
-      alias: Object.assign({}, ALIASES, {
+      alias: Object.assign({}, {
         // Use luma.gl specified by root package.json
         'luma.gl': resolve(LIB_DIR, './node_modules/luma.gl'),
         // Important: ensure shared dependencies come from the main node_modules dir
