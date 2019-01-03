@@ -17,3 +17,5 @@ package-lock.json
 *.min.js
 .yo-rc.json
 token.json
+dist
+ac.sh
